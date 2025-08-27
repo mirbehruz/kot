@@ -1,0 +1,93 @@
+* {
+    margin: 0 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logotip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logotip .aziz {
+    width: 30px;
+    height: 30px;
+    background: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+
+
+.hullas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.vic {
+    max-width: 400px;
+}
+
+.vic h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.vic p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.vic button {
+    background: #007bff;
+    color: white;
+  
+    padding: 10px 20px;
+    border-radius: 25px;
+  
+    font-size: 14px;
+}
+button:active{
+    transition: 2s;
+    width:300px ;
+    height: 100px;
+}
+.rasm img {
+    width: 609px;
+    height: 466.68px ;
+}
+.por:hover{
+   font-size: medium;
+   color: black;
+}
+
+
+
